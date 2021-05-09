@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "npm": "^7.12.0"
+  },
+  "scripts": {},
+  "name": "auto-backup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "fs-extra": "^10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BdsPp/auto-backup.git"
+  },
+  "author": "k239i <sueqk@outlook.jp>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/BdsPp/auto-backup/issues"
+  },
+  "homepage": "https://github.com/BdsPp/auto-backup#readme",
+  "description": ""
+}
