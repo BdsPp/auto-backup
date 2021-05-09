@@ -7,7 +7,7 @@ module.exports = {
         });
         api.on('ecchi.15minuteEvent', () => {
             const name = 'backup-' + Date.now();
-            fs.copySync('../worlds/main', '../worlds/' + name);
+            fs.copySync('../../worlds/main', '../../worlds/' + name);
             logger.Info("I backed the World. The file name is '" + name + "'.");
         });
     },
