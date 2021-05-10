@@ -3,7 +3,7 @@ module.exports = {
     Handler: function(api, logger) {
         api.on('ready', () => {
             logger.Info('ready!');
-            logger.Info('This plugin will automatically back up your BdsPp world for you! You need the built-in plugin \'ecchi\'.');
+            logger.Info('This plugin will automatically back up your BdsPp world for you!');
         });
         api.onTimer("15m", () => {
             const name = 'backup-' + Date.now();
