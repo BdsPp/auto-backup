@@ -9,5 +9,5 @@
  npm i fs-extra
  cd plugins
  git clone https://github.com/BdsPp/auto-backup
- cd auto-backup
+ cd -
 ```
